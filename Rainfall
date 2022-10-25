@@ -1,0 +1,23 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        // Start here!
+        double rainApril, rainMay, rainJune;
+        double average;
+        
+        //int
+        rainApril = 12;
+        rainMay=14;
+        rainJune=8;
+        
+        //calculations
+        average= (rainApril+rainMay+rainJune)/3;
+        
+        //output to console
+        System.out.println("Rainfall for April: " + rainApril);
+        System.out.println("Rainfall for May:   " + rainMay);
+        System.out.println("Rainfall for June:  " + rainJune);
+        System.out.println("Average Rainfall:  " + average);
+    }
+}
