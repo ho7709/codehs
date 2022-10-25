@@ -1,0 +1,12 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        int length = readInt("Enter the Length --> ");
+        int width = readInt("Enter the Width --> ");
+        int area = width * length;
+        int perimeter = 2*length+2*width;
+        System.out.println("Perimeter = " + perimeter);
+        System.out.println("Area = " + area);
+    }
+}
