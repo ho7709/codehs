@@ -1,0 +1,24 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+       double d, q, a, s;
+       int r;
+       
+       d=88;
+       q=74;
+       a=95;
+       s=88.7;
+       r=89;
+       
+       
+       
+        // Start here!
+        System.out.println("Daily Average = "+d);
+        System.out.println("Quiz Average = "+q);
+        System.out.println("Test Average = "+a);
+        System.out.println("--------------------------");
+        System.out.println("Six Weeks Average = "+s);
+        System.out.println("Six Weeks Average = "+r);
+    }
+}
