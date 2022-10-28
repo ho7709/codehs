@@ -1,0 +1,18 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        //input values
+        boolean brother, sister;
+        
+        brother=readBoolean("Do you have a brother? ");
+        sister=readBoolean("Do you have a sister? ");
+        boolean sibling = brother==true||sister==true;
+    
+        
+        
+        //print result
+        System.out.println();
+        System.out.println("You have a sibling--> "+sibling);
+    }
+}
